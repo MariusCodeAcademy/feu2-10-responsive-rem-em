@@ -1,15 +1,55 @@
 @import url('https://necolas.github.io/normalize.css/8.0.1/normalize.css');
 @import 'reset.css';
 
+:root {
+}
+html {
+  /* rem daugiklis */
+  font-size: 16px;
+}
+
+p {
+  font-size: 16px;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+/* em - santykinis matas nuo tevinio elemento font size
+naudojam textiniam elementam padding ir margin
+*/
 .btn {
   padding: 0.5em 1em;
   font-size: 20px;
 }
 
 .btn-large {
-  font-size: 40px;
+  font-size: 2rem;
 }
 
 .post h3 {
   margin-bottom: 0.5em;
+}
+
+.fixedPadding {
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+/* rem - santykinis matas nuo html elemento font size
+naudojam tarpams plociams, atstuminmui kuris priklauso nuo ekrano dydzio. Didles antrastes, korteles, postai.
+*/
+.post {
+  margin-bottom: 2rem;
+}
+
+button {
+  margin-right: 2.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 10px;
+  }
 }
