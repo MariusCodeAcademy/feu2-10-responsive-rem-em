@@ -1,0 +1,15 @@
+@import url('https://necolas.github.io/normalize.css/8.0.1/normalize.css');
+@import 'reset.css';
+
+.btn {
+  padding: 0.5em 1em;
+  font-size: 20px;
+}
+
+.btn-large {
+  font-size: 40px;
+}
+
+.post h3 {
+  margin-bottom: 0.5em;
+}
