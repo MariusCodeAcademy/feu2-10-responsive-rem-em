@@ -3,6 +3,7 @@
 
 header {
   background-color: burlywood;
+  font-size: 100px;
 }
 
 main {
@@ -41,6 +42,10 @@ footer {
     background-color: rgb(121, 64, 43);
     flex-basis: 50%;
   }
+
+  header {
+    font-size: 70px;
+  }
 }
 
 /* Mobile view */
@@ -48,5 +53,11 @@ footer {
   .flex {
     flex-direction: column;
     gap: 0;
+  }
+  main {
+    background-color: rgb(226, 178, 161);
+  }
+  header {
+    font-size: 35px;
   }
 }
